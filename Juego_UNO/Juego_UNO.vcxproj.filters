@@ -1,22 +1,236 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Archivos de origen">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Archivos de encabezado">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Archivos de recursos">
+    <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Surce Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\cards">
+      <UniqueIdentifier>{1bbd0c75-13b9-461b-aa32-76baae99af8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\game_cover">
+      <UniqueIdentifier>{00e7e506-fe53-446f-91a3-e206b5bd2a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\game_cover\game_logo">
+      <UniqueIdentifier>{f882c543-02bc-4f8d-8e3d-3eb0afe6883c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Juego_UNO.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClCompile Include="main.cpp">
+      <Filter>Surce Files</Filter>
     </ClCompile>
+    <ClCompile Include="Show_Cards.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Surce Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Surce Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Surce Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Game.cpp">
+      <Filter>Surce Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Show_Cards.hpp">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Game.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\cards\yellow_skip.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\blue_0.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\blue_1.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\blue_2.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\blue_5.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\blue_6.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\blue_9.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\card_back.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\card_back_alt.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\green_0.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\green_1.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\green_2.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\green_3.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\green_4.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\green_5.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\green_6.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\green_7.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\green_8.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\green_9.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\red_6.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\yellow_0.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\yellow_3.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\yellow_5.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\yellow_6.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\yellow_7.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\yellow_8.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\yellow_9.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\blue_3.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\blue_4.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\blue_7.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\blue_8.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\blue_picker.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\blue_reverse.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\blue_skip.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\green_picker.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\green_reverse.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\green_skip.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\red_0.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\red_1.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\red_2.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\red_3.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\red_4.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\red_5.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\red_7.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\red_8.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\red_9.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\red_picker.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\red_reverse.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\red_skip.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\wild_color_changer.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\wild_pick_four.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\yellow_1.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\yellow_2.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\yellow_4.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\yellow_picker.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\cards\yellow_reverse.png">
+      <Filter>Resource Files\cards</Filter>
+    </Image>
+    <Image Include="Resources\game_UNO_logo.jfif">
+      <Filter>Resource Files\game_cover\game_logo</Filter>
+    </Image>
   </ItemGroup>
 </Project>
